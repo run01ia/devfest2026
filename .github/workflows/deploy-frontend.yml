@@ -53,3 +53,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEVFEST2026_FRONTEND }}
           channelId: ${{ steps.branch-config.outputs.channel }}
           projectId: devfest2026-frontend
+          entryPoint: frontend
