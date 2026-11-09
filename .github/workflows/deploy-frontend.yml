@@ -9,6 +9,9 @@ on:
       - 'frontend/**'
       - '.github/workflows/deploy-frontend.yml'
 
+env:
+  REGION: asia-northeast1
+
 jobs:
   deploy-frontend:
     runs-on: ubuntu-latest
